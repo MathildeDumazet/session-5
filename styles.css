@@ -1,6 +1,28 @@
 body {
   position: relative;
+  padding-top: 20px;s
 }
 
-#fixed-block {
+#fixed-block { 
+	position: fixed;
+	top: 0;
+	left: 0; 
+	right:0;
 }
+#footnotes {
+	position: absolute; 
+	top:100%;
+ } 
+
+ #with-offset { 
+ 	position: relative;
+ 	bottom: 5px;
+  }
+
+  #floating-square {
+	width: 150px; 
+	height: 150px; 
+	float: left;
+	margin-right: 5px; 
+	margin-bottom: 5px; 
+  }
